@@ -1,0 +1,38 @@
+{
+  "name": "everything-search-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Everything Search integration with natural language processing",
+  "type": "module",
+  "main": "build/index.js",
+  "bin": {
+    "everything-search-mcp-server": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "test": "node test-server.js",
+    "install-global": "npm run build && npm install -g .",
+    "uninstall-global": "npm uninstall -g everything-search-mcp-server"
+  },
+  "keywords": ["mcp", "everything-search", "file-search", "natural-language"],
+  "author": "Anant S Kamat <anant.kamat.in@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ananyaakamat/everything-search-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ananyaakamat/everything-search-mcp-server/issues"
+  },
+  "homepage": "https://github.com/ananyaakamat/everything-search-mcp-server#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "axios": "^1.6.2",
+    "zod": "^3.22.4",
+    "zod-to-json-schema": "^3.22.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  }
+}
