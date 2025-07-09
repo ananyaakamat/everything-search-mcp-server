@@ -1,14 +1,6 @@
 # Everything Search MCP Server
 
-[![npm version](https://badge.fury.io/js/everything-search-mcp-ser#### For VS Code
-
-> **Configure for VS Code**
-> 
-> For quick installation, use one of the one-click install buttons below...
-> 
-> [![VS Code](https://img.shields.io/badge/VS%20Code-Open%20Settings-blue?style=for-the-badge&logo=visualstudiocode)](vscode://settings/json) [![VS Code Insiders](https://img.shields.io/badge/VS%20Code%20Insiders-Open%20Settings-green?style=for-the-badge&logo=visualstudiocode)](vscode-insiders://settings/json)
-
-The buttons above will open your VS Code settings. Then copy and paste the configuration below.)](https://www.npmjs.com/package/everything-search-mcp-server)
+[![npm version](https://badge.fury.io/js/everything-search-mcp-server.svg)](https://www.npmjs.com/package/everything-search-mcp-server)
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D16-brightgreen)](https://nodejs.org/)
 [![Windows Only](https://img.shields.io/badge/platform-Windows-blue)](https://www.microsoft.com/windows)
@@ -108,11 +100,15 @@ Add to your `claude_desktop_config.json`:
 
 #### For VS Code
 
-> **Configure for VS Code**
->
-> For quick installation, use one of the one-click install buttons below...
->
-> [![VS Code](https://img.shields.io/badge/VS%20Code-Install-blue?style=for-the-badge&logo=visualstudiocode)](vscode:extension/ms-vscode.vscode-mcp) [![VS Code Insiders](https://img.shields.io/badge/VS%20Code%20Insiders-Install-green?style=for-the-badge&logo=visualstudiocode)](vscode-insiders:extension/ms-vscode.vscode-mcp)
+For quick installation, use one of the one-click install buttons below...
+
+[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=everything-search&config=%7B%22command%22%3A%22everything-search-mcp-server%22%2C%22args%22%3A%5B%5D%7D) [![Install in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect/mcp/install?name=everything-search&config=%7B%22command%22%3A%22everything-search-mcp-server%22%2C%22args%22%3A%5B%5D%7D&quality=insiders)
+
+For manual installation, add the following JSON block to your User Settings (JSON) file in VS Code. You can do this by pressing `Ctrl + Shift + P` and typing `Preferences: Open User Settings (JSON)`.
+
+Optionally, you can add it to a file called `.vscode/mcp.json` in your workspace. This will allow you to share the configuration with others.
+
+> Note that the `mcp` key is needed when using the `mcp.json` file.
 
 Add to your VS Code `settings.json`:
 
