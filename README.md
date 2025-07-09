@@ -101,10 +101,10 @@ Add to your `claude_desktop_config.json`:
 #### For VS Code
 
 > **Configure for VS Code**
->
+> 
 > For quick installation, use one of the one-click install buttons below...
->
-> [**VS Code**](vscode:extension/ms-vscode.vscode-mcp) [**VS Code Insiders**](vscode-insiders:extension/ms-vscode.vscode-mcp)
+> 
+> [![VS Code](https://img.shields.io/badge/VS%20Code-Install-blue?style=for-the-badge&logo=visualstudiocode)](vscode:extension/ms-vscode.vscode-mcp) [![VS Code Insiders](https://img.shields.io/badge/VS%20Code%20Insiders-Install-green?style=for-the-badge&logo=visualstudiocode)](vscode-insiders:extension/ms-vscode.vscode-mcp)
 
 Add to your VS Code `settings.json`:
 
