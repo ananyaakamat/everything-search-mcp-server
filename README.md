@@ -100,18 +100,34 @@ Add to your `claude_desktop_config.json`:
 
 #### For VS Code
 
+> **Configure for VS Code**
+>
+> For quick installation, use one of the one-click install buttons below...
+>
+> [**VS Code**](vscode:extension/ms-vscode.vscode-mcp) [**VS Code Insiders**](vscode-insiders:extension/ms-vscode.vscode-mcp)
+
 Add to your VS Code `settings.json`:
 
 ```json
 {
-  "mcp.servers": {
-    "everything-search": {
-      "command": "everything-search-mcp-server",
-      "args": []
+  "mcp": {
+    "servers": {
+      "everything-search": {
+        "command": "everything-search-mcp-server",
+        "args": []
+      }
     }
   }
 }
 ```
+
+**Settings File Locations:**
+
+- **Windows**: `%APPDATA%\Code\User\settings.json`
+- **macOS**: `~/Library/Application Support/Code/User/settings.json`
+- **Linux**: `~/.config/Code/User/settings.json`
+
+> **Note**: Ensure you have the MCP extension installed in VS Code for MCP server support.
 
 ### Step 4: Restart Your MCP Client
 
